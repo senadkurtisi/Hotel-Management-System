@@ -17,9 +17,6 @@ Also project can be opened in the NetBeans.
 - [MySQL Workbench](https://www.mysql.com/products/workbench/)
 
 
-## Motivation
-Project was built with inte
-
 ## Project description
 **Hotel Manager** is a hotel management software
 which can help hotel employees easily manage
@@ -37,8 +34,8 @@ check out current guests, make an order for a
 specific room(current guest) or search for 
 information about specific room. 
 **Currently there is one regular employee.**
-username: 'mark-johnson'
-password: 'mark johnson'
+**username: 'mark-johnson'**
+**password: 'mark johnson'**
 
 #### Manager
 Managers can do everything regular employee can
@@ -127,7 +124,7 @@ Only valid number of items can be added(>0).
 After selecting the room, room receipt file is being updated
 by adding newly acquired items in format: 
 name/amount/price(amount*singular price)
-Also, there is confirmation message of the recceipt update.
+Also, there is confirmation message of the receipt update.
 
 #### Employee Management
 Currently logged in employee (Manager/Owner) can search for
