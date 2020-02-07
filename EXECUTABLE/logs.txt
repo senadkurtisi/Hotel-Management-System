@@ -1,0 +1,23 @@
+Admin Admin ID: 6 has logged in Fri Feb 07 17:30:40 CET 2020
+Admin Admin ID: 6 has checked in room 2
+Admin Admin ID: 6 has updated receipt for room2
+Admin Admin ID: 6 has added a new employee
+Admin Admin ID: 6 has logged out Fri Feb 07 17:32:01 CET 2020
+Admin Admin ID: 6 has logged out Fri Feb 07 17:32:01 CET 2020
+New Employee ID: 26 has logged in Fri Feb 07 17:32:20 CET 2020
+New Employee ID: 26 has logged out Fri Feb 07 17:32:24 CET 2020
+New Employee ID: 26 has logged in Fri Feb 07 17:32:40 CET 2020
+New Employee ID: 26 has updated receipt for room2
+New Employee ID: 26 has checked out room 2
+New Employee ID: 26 has logged out Fri Feb 07 17:33:24 CET 2020
+New Employee ID: 26 has logged out Fri Feb 07 17:33:24 CET 2020
+Admin Admin ID: 6 has logged in Fri Feb 07 17:33:32 CET 2020
+Admin Admin ID: 6 has deleted an employee with ID=26
+Admin Admin ID: 6 has logged out Fri Feb 07 17:34:01 CET 2020
+Admin Admin ID: 6 has logged out Fri Feb 07 17:34:01 CET 2020
+Admin Admin ID: 6 has logged in Fri Feb 07 19:39:19 CET 2020
+Admin Admin ID: 6 has logged out Fri Feb 07 19:47:32 CET 2020
+Admin Admin ID: 6 has logged in Fri Feb 07 20:21:43 CET 2020
+Admin Admin ID: 6 has checked in room 8
+Admin Admin ID: 6 has updated receipt for room8
+Admin Admin ID: 6 has logged out Fri Feb 07 20:53:11 CET 2020

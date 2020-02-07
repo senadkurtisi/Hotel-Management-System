@@ -1,0 +1,4 @@
+Admin Admin ID: 6 has logged in Fri Feb 07 16:54:12 CET 2020
+Admin Admin ID: 6 has gave raise to an employee with ID=6
+Admin Admin ID: 6 has logged out Fri Feb 07 16:54:39 CET 2020
+Admin Admin ID: 6 has logged out Fri Feb 07 16:54:39 CET 2020
