@@ -12,9 +12,9 @@ Also project can be opened in the NetBeans.
 
 
 ## Built with
-[NetBeans 8.2](https://netbeans.org/)
-[Java SE Development Kit 8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
-[MySQL Workbench](https://www.mysql.com/products/workbench/)
+-[NetBeans 8.2](https://netbeans.org/)
+-[Java SE Development Kit 8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+-[MySQL Workbench](https://www.mysql.com/products/workbench/)
 
 
 ## Motivation
