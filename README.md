@@ -24,37 +24,9 @@ everyday situations.
 
 ### Employee distinction
 There are three levels of employees in the hotel.
-1. Regular
-2. Manager
-3. Owner
-
-#### Regular
-Regular employees can only check in new guests,
-check out current guests, make an order for a
-specific room(current guest) or search for 
-information about specific room. 
-**Currently there is one regular employee.**
-**username: 'mark-johnson'**
-**password: 'mark johnson'**
-
-#### Manager
-Managers can do everything regular employee can
-with addition to editing information about regular
-employees. For example: name change, picture change,
-raise etc. Managers can't edit other managers or
-owners, of course.
-**Currently there is one manager.**
-**username: 'jane-johnson'**
-**password: 'jane johnson'**
-
-#### Owner
-Owners of the hotel can do everything regular employees
-and managers can, with possibility to edit manager
-information or delete managers. 
-Owners can also add new employees. 
-**Owner log in credentials:**
-**username: 'admin-admin'**
-**password: 'adminpassword'**
+1. Regular   <--- credentials: username: 'mark-johnson';  password: 'mark johnson'
+2. Manager   <--- credentials: username: 'jane-johnson';  password: 'jane johnson'
+3. Owner     <--- credentials: username: 'admin-admin';  password: 'adminpassword'
 
 
 ## Project components
@@ -109,10 +81,3 @@ information about employee by his ID. Both managers and owners
 can edit those information and update the database or delete
 employees, but managers can't edit or delete other managers, 
 and of course, owners. Owners can edit and delete everyone.
-
-###### New employee
-Owners can add new employees, by specifying all necessary information.
-Every field must be filled and correctly formatted in order to add 
-new employee. If not warning message will pop up. Also, employee level
-can be specified. When new employee is created we get notification
-about the ID of the recently created employee.
