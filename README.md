@@ -22,12 +22,6 @@ Also project can be opened in the NetBeans.
 which can help hotel employees easily manage
 everyday situations.
 
-### Employee distinction
-There are three levels of employees in the hotel.
-1. Regular   <--- credentials: username: 'mark-johnson';  password: 'mark johnson'
-2. Manager   <--- credentials: username: 'jane-johnson';  password: 'jane johnson'
-3. Owner     <--- credentials: username: 'admin-admin';  password: 'adminpassword'
-
 
 ## Project components
 
@@ -74,6 +68,12 @@ menu is being shown.
 
 Currently logged in employee can update the receipt for a
 specific room.
+
+#### Employee distinction
+There are three levels of employees in the hotel.
+1. Regular   <--- credentials: username: 'mark-johnson';  password: 'mark johnson'
+2. Manager   <--- credentials: username: 'jane-johnson';  password: 'jane johnson'
+3. Owner     <--- credentials: username: 'admin-admin';  password: 'adminpassword'
 
 #### Employee Management
 Currently logged in employee (Manager/Owner) can search for
