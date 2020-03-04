@@ -29,7 +29,7 @@ There are three levels of employees in the hotel.
 3. Owner
 
 #### Regular
-Regular employees can only chech in new guests,
+Regular employees can only check in new guests,
 check out current guests, make an order for a
 specific room(current guest) or search for 
 information about specific room. 
@@ -66,10 +66,8 @@ form which is being shown by starting .jar file
 directory.
 
 Log in form requests employee's log in credentials
-which must be valid. The validity of credentials is
-being checked by searching the locally stored MySQL
-database created in **MySQL Workbench**. 
-Also, .sql file of the database can be found at the
+which must be valid.. 
+.sql file of the database can be found at the
 location: ***"src/hotel_manager_db.sql"***. That file
 can be loaded to the MySQL Workbench and edited freely.
 **MySQL Workbench localhost credentials:**
@@ -86,45 +84,24 @@ Hotel Manager form contains three tabs:
 ##### Guest Check In
 In the Booking Management list of all hotel's 
 accommodation sections(rooms/apartments) is being 
-shown along with room number, type, price per nigh
-and availability status(Free/Occupied). 
+shown. 
 Currently logged in employee can check in new guest
-by choosing room number and entering guests first 
-and last name. 
-**Only rooms that are not occupied can be chosen.**
-*When new guest is added .txt file is being saved
-with format: 'room-(room_number).txt'. Initial file
-contains only the price per night of the room.*
+by choosing room number and entering guests info. 
 
 ##### Room search
 Currently logged in employee can search for information
 about guest that currently stays in specified room.
-Current room receipt is also displayed.
-**Message pops up if room is not occupied.**
 
 ##### Guest Check Out
 Currently logged in employee can check out guest from
-specified room. Message pops up if no room is chosen.
-After check out, room txt file is deleted and total 
-receipt value along with room and guest information is 
-added to the cash-register file.
-*Also, a confirmation message pops up for preventing
-accidental clicks on the check out button.*
+specified room.
 
 #### Menu
 In the menu tab a list of all possible items from the 
-menu is being shown with next information: 
-- Item name
-- Item price
-- Item availability
+menu is being shown.
 
-Currently logged in employee can choose an item, number
-of desired items, and add it to current receipt session.
-Only valid number of items can be added(>0).
-After selecting the room, room receipt file is being updated
-by adding newly acquired items in format: 
-name/amount/price(amount*singular price)
-Also, there is confirmation message of the receipt update.
+Currently logged in employee can update the receipt for a
+specific room.
 
 #### Employee Management
 Currently logged in employee (Manager/Owner) can search for
@@ -132,20 +109,6 @@ information about employee by his ID. Both managers and owners
 can edit those information and update the database or delete
 employees, but managers can't edit or delete other managers, 
 and of course, owners. Owners can edit and delete everyone.
-*Employee information that is being shown:*
-- First name
-- Last name
-- Date of birth
-- Age
-- Pay
-- Place of living
-- Phone number
-- Gender
-- Profile picture
-
-***Along with directly editing pay, managers and owners can apply
-raise to the selected employee, again with respect to the selected
-employee level.***
 
 ###### New employee
 Owners can add new employees, by specifying all necessary information.
